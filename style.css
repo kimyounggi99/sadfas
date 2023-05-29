@@ -1,0 +1,20 @@
+#omok-board {
+  display: grid;
+  grid-template-columns: repeat(15, 40px);
+}
+
+.square {
+  width: 40px;
+  height: 40px;
+  border: 1px solid #000;
+}
+
+.black-stone {
+  background-color: #000;
+  border-radius: 50%;
+}
+
+.white-stone {
+  background-color: #fff;
+  border-radius: 50%;
+}
